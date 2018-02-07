@@ -1,0 +1,176 @@
+html {
+	font-size :16px;
+}
+html, body {
+	height: 100%;
+	position:relative;
+}
+html, body, div, span,  object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr,  address,  cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small,  strong, sub, sup, var,
+b, u, i, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header,
+nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+	border:none;
+	background-color:inherit;
+	color:inherit;
+	outline:none;
+/*	border:1px solid black;*/
+
+
+
+}
+img,fieldset {
+	vertical-align:middle;
+}
+
+a { text-decoration:none;
+	color: inherit;
+}
+
+p{
+	line-height:1.8rem;
+}
+
+table {border-collapse:collapse;}
+
+html {
+	box-sizing: border-box;
+}
+*,::after,::before {
+ box-sizing:inherit
+}
+ul,ol,li {
+	list-style:none;
+	display: inline-block;
+}
+/*===========================================*/
+body {
+	background-color: #CCECFF ;
+}
+h1 {
+	display:block;
+	font-size:3rem;
+	font-family: 'Capriola', sans-serif;
+	color:#33B4FF;
+	margin:5%;
+}
+p{
+	font-size:1rem;
+	font-family: 'Capriola', sans-serif;
+	color:#33B4FF;
+	margin:5%;
+
+}
+a {
+	padding-top:2.1rem;
+	position:absolute;
+	bottom: -10rem;
+	right:-10rem;
+	border-radius: 50%;
+	font-size: 1.4rem;
+	height:20rem;
+	width:20rem;
+	display:block;
+	transform: skew(-54deg) rotate(-72deg);
+	text-align: center;
+	background-color:rgba(216,135,150,0.9);
+	color: white;
+
+}
+
+a:hover {
+	background-color:rgba(250,176,0,1);
+	color:white;
+	font-size:1.8rem;
+}
+
+.nav-wrapper {
+	overflow:hidden;
+	height:20rem;
+	width: 20rem;
+	position: fixed;
+	bottom: -10rem;
+	left: 50%;
+	border-radius: 50%;
+	margin-left:-10rem;
+	background-color:transparent;
+
+	
+}
+
+
+#nav-button{
+	cursor:pointer;
+	position:fixed;
+	bottom:-3rem;
+	left:50%;
+	width:6rem;
+	height:6rem;
+	border-radius:50%;
+	margin-left:-3rem;
+	padding-bottom:2.3rem;
+	background-color:rgba(228,59,83,1);
+	font-size:2rem;
+	color:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#nav-button span{
+	border-radius:50%;
+	display:block;
+	background-color:transparent;
+}
+ul li{
+	background-color:transparent;
+	overflow:hidden;
+	position:absolute;
+	bottom:50%;
+	right:50%;
+	height:15rem;
+	width:15rem;
+	border:0.2rem solid transparent;
+	transform-origin:100% 100%;
+	
+}
+ul li:first-child{
+	border-bottom:0;
+}
+ul li:last-child {
+	border-right:0;
+}
+
+ul li:nth-child(1){
+	transform: rotate(0deg) skew(54deg);
+}
+ul li:nth-child(2){
+	transform: rotate(36deg) skew(54deg);
+}
+ul li:nth-child(3){
+	transform: rotate(72deg) skew(54deg)
+}
+ul li:nth-child(4){
+	transform: rotate(108deg) skew(54deg);
+}
+ul li:nth-child(5){
+ 	transform: rotate(144deg) skew(54deg);
+}
+img {
+	width:100%;
+	height:100%;
+}
+
+
+
+
+

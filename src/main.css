@@ -55,23 +55,9 @@ ul,ol,li {
 	display: inline-block;
 }
 /*===========================================*/
-body {
-	background-color: #CCECFF ;
-}
-h1 {
-	display:block;
-	font-size:3rem;
-	font-family: 'Capriola', sans-serif;
-	color:#33B4FF;
-	margin:5%;
-}
-p{
-	font-size:1rem;
-	font-family: 'Capriola', sans-serif;
-	color:#33B4FF;
-	margin:5%;
 
-}
+
+
 a {
 	padding-top:2.1rem;
 	position:absolute;
